@@ -9,7 +9,7 @@ const Header = () => {
                     <img className="w-20" src={Logo} alt="Logo"/>
                 </div>
 
-                <nav className="flex gap-16 items-center list-none">
+                <nav className="hidden lg:flex gap-16 items-center list-none">
                     <li className="cursor-pointer text-white font-bold text-base">Home</li>
                     <li className="cursor-pointer text-white font-bold text-base">About Us</li>
                     <li className="cursor-pointer text-white font-bold text-base">Aquariums</li>

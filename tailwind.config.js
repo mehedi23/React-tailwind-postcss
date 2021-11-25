@@ -8,6 +8,11 @@ module.exports = {
       'secondary': '#ffed4a',
       'danger': '#e3342f',
     }),
+    borderColor: theme => ({
+      ...theme('colors'),
+      DEFAULT: theme('colors.gray.300', 'currentColor'),
+      'primary': '#3498DB',
+    }),
     extend: {
       backgroundImage: {
         banner: "url('https://www.setaswall.com/wp-content/uploads/2017/11/Aquarium-Wallpaper-30-3840x2400.jpg')"
@@ -16,7 +21,9 @@ module.exports = {
     colors: {
       primary: '#2C3E50',
       white: '#ffffff',
-      light: '#D5D8DC'
+      light: '#D5D8DC',
+      paragraph: '#808B96',
+      sky : '#3498DB'
     }
   },
   variants: {
