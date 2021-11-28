@@ -5,7 +5,7 @@ import { AiOutlineWechat } from "react-icons/ai";
 
 const Services = () => {
     return (
-        <section className="my-16 bg-banner_2 bg-fixed bg-cover relative">
+        <section className="my-20 bg-banner_2 bg-fixed bg-cover relative">
             <div className="absolute top-0 left-0 w-full h-full bg-blue-transparent opacity-80"></div>
 
 

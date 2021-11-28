@@ -2,8 +2,8 @@ import React from 'react'
 
 const About = () => {
     return (
-        <section>
-            <div className="container mx-auto pb-20">
+        <section className="pb-20 pt-14">
+            <div className="container mx-auto">
 
                 <div className="lg:grid grid-cols-2">
                     <div className="overflow-hidden sm:h-96 max-h-96">
