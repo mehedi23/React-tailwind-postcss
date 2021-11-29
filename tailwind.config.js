@@ -2,8 +2,12 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    minWidth: {
+      '20': '5rem',
+    },
     backgroundColor: theme => ({
       ...theme('colors'),
+      'dark': '#1C2833',
       'button': '#3498DB',
       'secondary': '#ffed4a',
       'danger': '#e3342f',
